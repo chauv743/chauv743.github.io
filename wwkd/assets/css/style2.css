@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'pixel_arial_11bold';
+    src: url('fonts/pixeab__-webfont.eot');
+    src: url('fonts/pixeab__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pixeab__-webfont.woff2') format('woff2'),
+         url('fonts/pixeab__-webfont.woff') format('woff'),
+         url('fonts/pixeab__-webfont.ttf') format('truetype'),
+         url('fonts/pixeab__-webfont.svg#pixel_arial_11bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixel_arial_11regular';
+    src: url('pixearg_-webfont.eot');
+    src: url('pixearg_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pixearg_-webfont.woff2') format('woff2'),
+         url('pixearg_-webfont.woff') format('woff'),
+         url('pixearg_-webfont.ttf') format('truetype'),
+         url('pixearg_-webfont.svg#pixel_arial_11regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+  font-family: 'pixel_arial_11bold';
+}
+
+
+* {
+  background: white;
+}
+
+#title_two {
+  font-size: 15pt;
+  color: #c0a895;
+  position: fixed;
+  left: 600px;
+}
+
+#intro {
+  letter-spacing: 0.5px;
+  font-size: 11pt;
+  color: #c0a895;
+  position: fixed;
+  top: 250px;
+  left: 410px;
+}
+
+#start_game {
+  letter-spacing: 0.5px;
+  font-size: 10pt;
+  color: #c0a895;
+  position: fixed;
+  top: 475px;
+  left: 575px;
+}
+
+a {
+  text-decoration: none;
+  color: #c0a895;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 11pt;
+  color: #b87868;
+}

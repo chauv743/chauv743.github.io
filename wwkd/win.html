@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <title>WWKD</title>
+  </head>
+  <body>
+
+<div id="title-win">
+  <p>
+    YOU WIN
+  <p>
+</div>
+
+<div id="play-again">
+  <p><a href="index.html">
+    PLAY AGAIN
+  </a><p>
+</div>
+
+
+<div id="kanye-win">
+  <a href="http://www.billboard.com/articles/columns/chart-beat/7326493/kanye-wests-the-life-of-pablo-debuts-at-no-1-on-billboard-200">
+  <img src="assets/img/kanyehappy.png" width="210">
+  </a>
+</div>
+
+
+
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<audio id="winAudio">
+  <source src="assets/audio/winaudio.mp3"></source>
+</audio>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $("#winAudio").get(0).play();
+    $('#title-win').addClass('animated flash');
+
+        // $("#win").get(0).play();
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'pixel_arial_11bold';
+    src: url('fonts/pixeab__-webfont.eot');
+    src: url('fonts/pixeab__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pixeab__-webfont.woff2') format('woff2'),
+         url('fonts/pixeab__-webfont.woff') format('woff'),
+         url('fonts/pixeab__-webfont.ttf') format('truetype'),
+         url('fonts/pixeab__-webfont.svg#pixel_arial_11bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixel_arial_11regular';
+    src: url('pixearg_-webfont.eot');
+    src: url('pixearg_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pixearg_-webfont.woff2') format('woff2'),
+         url('pixearg_-webfont.woff') format('woff'),
+         url('pixearg_-webfont.ttf') format('truetype'),
+         url('pixearg_-webfont.svg#pixel_arial_11regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+  font-family: 'pixel_arial_11bold';
+}
+
+
+
+body {
+  z-index: 1;
+background: url("../img/bound2_pixel.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
+
+#kanye_face {
+  z-index: 1000;
+  width:165px;
+  height:235px;
+  background: url("../img/kanyeface-edit.png") no-repeat;
+  background-size: 165px;
+  /*border:1px solid yellow;*/
+  /*margin: 0px auto;*/
+  position: absolute;
+  top: 185px;
+  left: 580px;
+}
+
+#kanye_face:hover {
+  background: url("../img/kanyeface2-edit.png") no-repeat;
+  background-size: 175px;
+}
+
+
+#title {
+  font-size: 17pt;
+  color: #d6bf83;
+  position: fixed;
+  top: 10px;
+  left: 610px;
+}
+
+#title-win {
+  font-size: 25pt;
+  color: #d6bf83;
+  position: fixed;
+  top: 385px;
+  left: 545px;
+}
+
+
+#kanye-win {      /*img*/
+  position: absolute;
+  top: 80px;
+  left: 545px;
+  /*background: url("../img/kanyehappy.png") no-repeat;
+  background-size: 400px;
+  border:1px solid yellow;
+  margin: 0px auto;*/
+}
+
+#play-again {
+  position: absolute;
+  top: 555px;
+  left: 582px;
+  font-size: 11pt;
+  color: #d6bf83;
+}
+
+#play-again:hover {
+  font-size: 12pt;
+  text-decoration: none;
+}
+
+
+#title-gameover {
+  font-size: 25pt;
+  color: #d6bf83;
+  position: fixed;
+  top: 385px;
+  left: 510px;
+}
+
+#north-gameover {   /*img*/
+  position: absolute;
+  top: -30px;
+  left: 415px;
+}

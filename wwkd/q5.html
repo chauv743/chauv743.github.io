@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+    <title>WWKD</title>
+  </head>
+  <body data-question="5">
+
+<div id="wrapper">
+
+  <div class="maze">
+      <img src="assets/img/mazeQ5.svg" width="420">
+  </div>
+
+
+  <div class="crowns">
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+  </div>
+
+
+<!-- QUESTION FIVE -->
+<div id="question_five" class="textbox">
+
+  <div id="wiz_one" class="question">
+    <p>Wiz says you cant name your<br>
+      new album WAVES. What<br>
+      would Kanye do?<p>
+  </div>
+
+  <div id="wiz_two" class="answer">
+      <p id="wiz_two_p"><a data-success="true">Bash him on Twitter</a><p>
+  </div>
+
+  <div id="wiz_three" class="answer">
+      <p id="wiz_three_p"><a data-success="false">Mention him in a song</a><p>
+  </div>
+
+  <div class="wiz">
+    <img src="assets/img/wizface.png" width="90">
+  </div>
+
+</div>
+</div>
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<audio id="wizAudio">
+  <source src="assets/audio/wizlaugh.mp3"></source>
+</audio>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $('#wrapper').fadeIn(1000, function() {
+        $("#question_five").slideDown(300);
+        $("#wizAudio").get(0).play();
+    });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+    <title>WWKD</title>
+  </head>
+  <body data-question="4">
+
+    <div id="wrapper">
+
+  <div class="maze">
+      <img src="assets/img/mazeQ4.svg" width="420">
+  </div>
+
+
+  <div class="crowns">
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+  </div>
+
+
+<!-- QUESTION FOUR -->
+<div id="question_four" class="textbox">
+
+  <div id="amber_one" class="question">
+    <p>The ex-girlfriend, Amber Rose, keeps dissing you and your<br>
+        relationship in several interviews.<p>
+  </div>
+
+  <div id="amber_two" class="answer">
+      <p id="amber_two_p"><a data-success="false">Get Kim, your lovely wife, to<br>
+      engage in a Twitter war<br>
+      with her</a><p>
+  </div>
+
+  <div id="amber_three" class="answer">
+      <p id="amber_three_p"><a data-success="true">Blast her in an interview.<br>
+        You pretty much made her famous.</a><p>
+  </div>
+
+  <div class="amber">
+    <img src="assets/img/amberface.png" width="135">
+  </div>
+
+</div>
+</div>
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<audio id="amberAudio">
+  <source src="assets/audio/amberaudio.mp3"></source>
+</audio>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $('#wrapper').fadeIn(1000, function() {
+        $("#question_four").slideDown(300);
+        $("#amberAudio").get(0).play();
+    });
+
+    </script>
+
+  </body>
+</html>

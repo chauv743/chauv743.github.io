@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+    <title>WWKD</title>
+  </head>
+  <body data-question="8">
+
+    <div id="wrapper">
+
+  <div class="maze">
+      <img src="assets/img/mazeQ8.svg" width="420">
+  </div>
+
+
+  <div class="crowns">
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+  </div>
+
+
+<!-- QUESTION EIGHT -->
+<div id="question_eight" class="textbox">
+
+  <div id="deadmau5_one" class="question">
+    <p>Deadmau5 called you out for 'illegally' downloading his music<br>
+      editing software, Serum. What<br>
+      would Kanye do?<p>
+  </div>
+
+  <div id="deadmau5_two" class="answer">
+      <p id="deadmau5_two_p"><a data-success="false">Deny downloading it. Kanye doesnt have time for that shit.</a><p>
+  </div>
+
+  <div id="deadmau5_three" class="answer">
+      <p id="deadmau5_three_p"><a data-success="true">Ask him on Twitter if he<br>
+      can perform at North's<br>
+      bday party. She loves<br>
+      Minnie Mouse</a><p>
+  </div>
+
+  <div class="deadmau5">
+    <img src="assets/img/deadmau5-face.png" width="180">
+  </div>
+
+</div>
+</div>
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<!-- <audio id="deadmau5Audio">
+  <source src="assets/audio/deadmau5audio.mp3"></source>
+</audio> -->
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $('#wrapper').fadeIn(1000, function() {
+        $("#question_eight").slideDown(300);
+        // $("#deadmau5Audio").get(0).play();
+    });
+
+    </script>
+
+  </body>
+</html>

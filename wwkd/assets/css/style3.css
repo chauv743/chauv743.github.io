@@ -1,0 +1,345 @@
+#wrapper {
+    background: url("../img/bound2_pixel_dark.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display:none;
+}
+
+@font-face {
+    font-family: 'pixel_arial_11bold';
+    src: url('fonts/pixeab__-webfont.eot');
+    src: url('fonts/pixeab__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pixeab__-webfont.woff2') format('woff2'),
+         url('fonts/pixeab__-webfont.woff') format('woff'),
+         url('fonts/pixeab__-webfont.ttf') format('truetype'),
+         url('fonts/pixeab__-webfont.svg#pixel_arial_11bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixel_arial_11regular';
+    src: url('fonts/pixearg_-webfont.eot');
+    src: url('fonts/pixearg_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pixearg_-webfont.woff2') format('woff2'),
+         url('fonts/pixearg_-webfont.woff') format('woff'),
+         url('fonts/pixearg_-webfont.ttf') format('truetype'),
+         url('fonts/pixearg_-webfont.svg#pixel_arial_11regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p {
+  font-family: 'pixel_arial_11bold';
+}
+
+a {
+  text-decoration: none;
+  color: #d7b27e;
+}
+
+a:hover {
+  color: #b87868;
+}
+
+#continue:hover::before {
+  content: url("../img/arrow.png");
+}
+
+
+#taylor_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#taylor_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#sway_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#sway_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#nike_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#nike_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#amber_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#amber_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#wiz_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#wiz_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#publicist_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#publicist_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#money_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#money_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+#deadmau5_two_p:hover::before {
+  content: url("../img/arrow.png");
+}
+
+#deadmau5_three_p:hover::before {
+    content: url("../img/arrow.png");
+}
+
+
+
+
+/*body.page-one-background {*/
+body {
+  z-index: 1;
+  margin:0;
+  padding:0;
+}
+
+#restart {
+  width: 130px;
+  height: 10px;
+  font-size: 8.5px;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  color: #b5593f;
+}
+
+.maze {
+  position: fixed;
+  top: 75px;
+  left: 700px;
+}
+
+.textbox {
+  position: absolute;
+  border: 3.5px solid #b5593f;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.crowns {
+  position: absolute;
+  top: 560px;
+  left: 345px;
+  border: 3.5px solid #b5593f;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 120px;
+}
+
+.question {
+  font-size: 8.5pt;
+  color: #b5593f;
+}
+
+.answer {
+  font-size: 8.5pt;
+}
+
+
+#success {
+  font-size: 11pt;
+  color: #b5593f;
+  width: 275px;
+  height: 90px;
+  top: 116px;
+  left: 179px;
+  text-align: center;
+  /*vertical-align: middle;*/
+  /*line-height: 125px;*/
+  padding-top: 40px;
+  display: none;
+
+}
+
+#fail {
+  font-size: 12.5pt;
+  color: #b5593f;
+  width: 275px;
+  height: 90px;
+  top: 116px;
+  left: 179px;
+  text-align: center;
+  /*vertical-align: middle;*/
+  /*line-height: 125px;*/
+  padding-top: 40px;
+  display: none;
+
+}
+
+#continue {
+  font-size: 8.5pt;
+  position: absolute;
+  top: 110px;
+  left: 225px;
+}
+
+
+/* QUESTION ONE */
+#question_one {
+  width: 275px;
+  height: 150px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.taylor {     /* img */
+  position: absolute;
+  top: 60px;
+  left: 225px;
+}
+
+
+/* QUESTION TWO */
+#question_two {
+  width: 275px;
+  height: 195px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+.sway {     /* img */
+  position: absolute;
+  top: 85px;
+  left: 182px;
+}
+
+
+/* QUESTION THREE */
+#question_three {
+  width: 275px;
+  height: 150px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.nike {     /* img */
+  position: absolute;
+  top: 95px;
+  left: 235px;
+}
+
+
+/* QUESTION FOUR */
+#question_four {
+  width: 275px;
+  height: 190px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.amber {     /* img */
+  position: absolute;
+  top: 70px;
+  left: 195px;
+}
+
+
+/* QUESTION FIVE */
+#question_five {
+  width: 275px;
+  height: 115px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.wiz {     /* img */
+  position: absolute;
+  top: 45px;
+  left: 210px;
+  -webkit-transform: rotate(-25deg);
+}
+
+
+
+/* QUESTION SIX */
+#question_six {
+  width: 275px;
+  height: 160px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.publicist {  /* img */
+position: absolute;
+top: 80px;
+left: 217px;
+}
+
+/* QUESTION SEVEN */
+#question_seven {
+  width: 275px;
+  height: 200px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.money {     /* img */
+  position: absolute;
+  top: 140px;
+  left: 215px;
+}
+
+
+/* QUESTION EIGHT */
+#question_eight {
+  width: 275px;
+  height: 200px;
+  top: 116px;
+  left: 179px;
+  display: none;
+}
+
+.deadmau5 {     /* img */
+  position: absolute;
+  top: 40px;
+  left: 195px;
+}

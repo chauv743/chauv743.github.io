@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+    <title>WWKD</title>
+  </head>
+  <body data-question="3">
+
+    <div id="wrapper">
+
+  <div class="maze">
+      <img src="assets/img/mazeQ3.svg" width="420">
+  </div>
+
+
+  <div class="crowns">
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+  </div>
+
+
+<!-- QUESTION THREE -->
+<div id="question_three" class="textbox">
+
+  <div id="nike_one" class="question">
+    <p>Nike refuses to collaborate with you to make the Air Yeezys.<br>
+      What would Kanye do?<p>
+  </div>
+
+  <div id="nike_two" class="answer">
+      <p id="nike_two_p"> <a data-success="true">Sign a deal with Adidas instead</a><p>
+  </div>
+
+  <div id="nike_three" class="answer">
+      <p id="nike_three_p"><a data-success="false">Throw shade on Twitter<br>
+        about Mark Parker, the CEO<br>
+        of Nike </a><p>
+  </div>
+
+  <div class="nike">
+    <img src="assets/img/nike.png" width="115">
+  </div>
+
+</div>
+</div>
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $('#wrapper').fadeIn(1000, function() {
+        $("#question_three").slideDown(300);
+        // $("#swayAudio").get(0).play();
+    });
+
+    </script>
+
+  </body>
+</html>

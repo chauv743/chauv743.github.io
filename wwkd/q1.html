@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+    <title>WWKD</title>
+  </head>
+  <body data-question="1">
+
+    <div id="wrapper">
+
+        <!-- <p id="restart" onclick="restartPage()">RESTART YOUR LIFE<p> -->
+
+  <div class="maze">
+      <img src="assets/img/maze-start.svg" width="420">
+  </div>
+
+
+  <div class="crowns" data-crowns="0">
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="assets/img/kanyecrown.png" width="20">
+  </div>
+
+
+    <!-- <div id="restart">
+    <a href="index.html>EESTART YOUR LIFE</a><p> -->
+
+
+<!-- QUESTION ONE -->
+<div id="question_one" class="textbox">
+  <div id="taylor_one" class="question">
+    <p>Taylor wins Best Female Video at the Grammys. What would Kanye do?<p>
+  </div>
+
+  <div id="taylor_two" class="answer">
+      <p id="taylor_two_p"> <a data-success="true">Interrupt her because<br>
+      Beyonce had the one of<br>
+      the best videos of all time</a><p>
+  </div>
+
+  <div id="taylor_three" class="answer">
+      <p id="taylor_three_p"><a data-success="false">Walk out of the Grammys</a><p>
+  </div>
+
+  <div class="taylor">
+    <img src="assets/img/taylorface.png" width="95">
+  </div>
+
+</div>
+
+</div>
+
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<audio id="taylorAudio">
+  <source src="assets/audio/tayloraudio.mp3"></source>
+</audio>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    $('#wrapper').fadeIn(1000, function() {
+        $("#question_one").slideDown(300);
+        $("#taylorAudio").get(0).play();
+    });
+
+
+    function restartPage() {
+        window.location.assign("index.html")
+    }
+
+    </script>
+
+  </body>
+</html>

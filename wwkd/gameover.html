@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <title>WWKD</title>
+  </head>
+  <body>
+
+<div id="wrapper">
+
+
+<div id="title-gameover">
+  <p>
+    GAME OVER
+  <p>
+</div>
+
+<div id="play-again">
+  <p><a href="index.html">
+    PLAY AGAIN
+  </a><p>
+</div>
+
+
+<div id="north-gameover">
+  <img src="assets/img/northface.png" width="675">
+  </a>
+</div>
+
+
+</div>
+
+
+
+<audio id="selection">
+  <source src="assets/audio/selection.mp3"></source>
+</audio>
+
+<audio id="gameoverAudio">
+  <source src="assets/audio/gameover.mp3"></source>
+</audio>
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+
+    // $('#wrapper').fadeIn(5000);
+
+    $('#title-gameover').addClass('animated flash');
+
+        $("#gameoverAudio").get(0).play();
+
+    </script>
+
+
+  </body>
+</html>
